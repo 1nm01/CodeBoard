@@ -2,7 +2,7 @@ import React from 'react'
 
 function Ide() {
   return (
-    <div>Ide</div>
+    <div>Id</div>
   )
 }
 
