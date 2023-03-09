@@ -8,9 +8,9 @@ function ButtonArea() {
         <button class="text-4xl w-80 h-24 px-4 py-2 mt-2 text-sm font-semibold text-white bg-purple-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg dark:text-gray-300 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
           Start Code
         </button>
-        <button class="text-4xl h-24 w-80 px-4 py-2 mt-2 text-sm font-semibold text-white bg-purple-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg dark:text-gray-300 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
+        {/* <button class="text-4xl h-24 w-80 px-4 py-2 mt-2 text-sm font-semibold text-white bg-purple-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg dark:text-gray-300 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
           Join Code
-        </button>
+        </button> */}
     </div>
   )
 }
