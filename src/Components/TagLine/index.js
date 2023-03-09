@@ -12,7 +12,7 @@ function Tagline() {
           </h1>
           <br></br>
           <p class="mx-auto  text-xl font-normal leading-relaxed text-gray-600 dark:text-gray-300 lg:w-2/3">
-            Want to share code easily with friends? Start Here.
+            <i>Want to share code easily with friends? Start Here.</i>
           </p>
         </div>
       </div>

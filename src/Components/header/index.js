@@ -38,9 +38,9 @@ function Header() {
           id="example-navbar-danger"
         >
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center font-semibold pl-7">
-          <a class="mr-6 hover:text-white" href="/">Buy us a coffee</a>
-          <a class="mr-6 hover:text-white" href="/contact">About us</a>
-          <button class="px-4 py-2 mt-2 text-sm font-semibold text-white bg-blue-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg dark:text-gray-300 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
+          <a className="mr-6 hover:text-white" href="/">Buy us a coffee</a>
+          <a className="mr-6 hover:text-white" href="/contact">About us</a>
+          <button style={{backgroundColor:"blue"}} className="px-4 py-2 mt-2 text-sm font-semibold text-white bg-blue-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg dark:text-gray-300 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
           Login / Sign Up
           </button>
         </nav>
