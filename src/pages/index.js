@@ -1,12 +1,18 @@
 
-import { Inter } from '@next/font/google'
+import Headers from '../Components/header'
+import Footer from '../Components/footer'
+import ButtonArea from '../Components/ButtonArea'
+import Tagline from '../Components/TagLine'
 
-const inter = Inter({ subsets: ['latin'] })
-
+import ImageArea from '@/Components/imageArea'
 export default function Home() {
   return (
-    <>
-      Hi
-    </>
+    <div className="flex flex-col min-h-screen">
+      <Headers/>
+      <Tagline/>
+      <ButtonArea/>
+      <ImageArea/>
+      <Footer/>
+    </div>
   )
 }
